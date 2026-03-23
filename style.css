@@ -1,92 +1,114 @@
- .cta-section {
-            width: 100%;
-            max-width: 1110px;
-            text-align: center;
-            padding: 80px 20px;
-        }
-
-        /* 2. Logo Bar Styling */
-        .logo-bar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 40px;
-            margin-bottom: 120px;
-        }
-
-        .logo-bar img {
-            max-width: 150px
-        }
-.container {
-  max-width: 1100px;
-  margin: 100px auto;
-  text-align: center;
-  font-family: 'Bai Jamjuree', sans-serif;
-  color: #4C545D;
+#title {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
 }
 
-.content h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
+.description {
+    display: flex;
+    justify-content: center;
+    line-height: 0%;
+    font-size: small;
+    font-weight: lighter;
 }
 
-.content p {
-  max-width: 700px;
-  margin: 0 auto 50px;
-  line-height: 1.6;
-  color: #9FABB2;
+#kingsley img {
+    display: flex;
+    justify-content: center;
 }
 
-/* Logo Bar Layout */
-.logo-bar {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 40px;
-  margin-bottom: 120px;
-  opacity: 0.6;
+#supercharge {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 600;
 }
 
-.logo-bar img {
-  height: auto;
-  max-width: 140px;
+#boost {
+    display: flex;
+    justify-content: center;
+    line-height: 0%;
+    font-size: small;
+    font-weight: lighter;
 }
 
-
-
-
-/* Button Styling */
-.button-group {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+.container1 {
+    display: flex;
+    justify-content: space-around;
+}
+.container2 {
+    display: flex;
+    justify-content: space-around;
 }
 
-.btn {
-  padding: 15px 40px;
-  border-radius: 30px;
-  border: none;
-  color: white;
-  font-weight: 600;
-  font-size: 16px;
-  cursor: pointer;
-  transition: transform 0.2s ease, opacity 0.2s ease;
+#create {
+    font-size: larger;
+    font-weight: 550;
+    display: flex;
+    justify-content:space-around;
 }
 
-/* Specific Button Colors & Shadows */
-.btn-ios {
-  background: #26BBA4;
-  box-shadow: #798886;
-  }
-
-.btn-mac {
- background: #26BBA4;
-  box-shadow: 0 4px 10px rgba(97, 115, 255, 0.3);
+#plain {
+    font-size: large;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
 }
 
-.btn:hover {
-  opacity: 0.85;
-  transform: translateY(-2px);
+#sneak {
+    font-size: large;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+}
+
+#ensure {
+    font-size: small;
+    font-weight: lighter;
+}
+
+#remove {
+    font-size: small;
+    font-weight: lighter;
+}
+
+#quick {
+    font-size: small;
+    font-weight: lighter;
+}
+
+#way {
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    line-height: 0%;
+}
+
+#for {
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    line-height: 0%;
+}
+
+#easy {
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    line-height: 0%;
+}
+
+#sources {
+    font-size: small;
+    display: flex;
+    justify-content: center;
+}
+#preview{
+    padding-left: 100px;
+}
+#blacklists{
+    padding-left: 100px;
+}
+#icon{
+    padding-left: 100px;
 }
